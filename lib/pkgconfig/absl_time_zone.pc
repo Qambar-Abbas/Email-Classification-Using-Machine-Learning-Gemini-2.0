@@ -1,0 +1,12 @@
+prefix=/opt/miniconda3/envs/inbox_cleaner
+exec_prefix=${prefix}
+libdir=/opt/miniconda3/envs/inbox_cleaner/lib
+includedir=/opt/miniconda3/envs/inbox_cleaner/include
+
+Name: absl_time_zone
+Description: Abseil time_zone library
+URL: https://abseil.io/
+Version: 20250127
+Requires:
+Libs: -L${libdir}  -labsl_time_zone 
+Cflags: -I${includedir} -Wno-float-conversion -Wno-implicit-float-conversion -Wno-implicit-int-float-conversion -Wno-unknown-warning-option -DNOMINMAX

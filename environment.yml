@@ -1,0 +1,14 @@
+name: inbox_cleaner
+channels:
+  - conda-forge
+dependencies:
+  # - python 3.13.4
+  - python
+  - pip
+  - google-api-python-client
+  - google-auth
+  - google-auth-oauthlib
+  - pip:
+      - google-generativeai
+      - python-dotenv
+      - requests

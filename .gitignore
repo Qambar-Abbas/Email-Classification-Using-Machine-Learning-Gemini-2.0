@@ -1,0 +1,48 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Conda environment directories
+env/
+venv/
+.inbox_cleaner_env/
+
+# IDE / Editor folders
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+
+# OAuth credentials (do NOT commit)
+credentials.json
+
+# Logs and databases
+*.log
+*.sqlite3
+
+# Output files
+*.html
+
+# Python virtual environment
+*.egg-info/
+dist/
+build/
+
+# MacOS resource forks
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Temporary files
+*.tmp
+*~

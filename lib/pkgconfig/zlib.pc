@@ -1,0 +1,13 @@
+prefix=/opt/miniconda3/envs/inbox_cleaner
+exec_prefix=/opt/miniconda3/envs/inbox_cleaner
+libdir=/opt/miniconda3/envs/inbox_cleaner/lib
+sharedlibdir=/opt/miniconda3/envs/inbox_cleaner/lib
+includedir=/opt/miniconda3/envs/inbox_cleaner/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

@@ -1,0 +1,12 @@
+prefix=/opt/miniconda3/envs/inbox_cleaner
+exec_prefix=${prefix}
+libdir=/opt/miniconda3/envs/inbox_cleaner/lib
+includedir=/opt/miniconda3/envs/inbox_cleaner/include
+
+Name: absl_compressed_tuple
+Description: Abseil compressed_tuple library
+URL: https://abseil.io/
+Version: 20250127
+Requires: absl_utility = 20250127
+Libs: -L${libdir}  
+Cflags: -I${includedir} -Wno-float-conversion -Wno-implicit-float-conversion -Wno-implicit-int-float-conversion -Wno-unknown-warning-option -DNOMINMAX

@@ -1,4 +1,4 @@
-# 📬 Inbox Cleaner & Classifier
+# Inbox Classifier
 
 A simple, open-source Python tool that:
 
@@ -68,11 +68,11 @@ Follow these steps exactly—no prior experience needed:
 
 ## 3. Limitations
 
-| What                       | Why                                   |
-|----------------------------|---------------------------------------|
-| 📧 Output Limit            | You can raise `max_results` in `'inbox_cleaner.py'` (1-500) per API call. |
-| 🔄 No automatic polling    | Script runs once and exits. You can add a cron job if you want repeat. |
-| 💸 API quotas apply        | Gemini free tier is limited; watch your Google Cloud console for usage. |
+| What                    | Why                                   |
+|-------------------------|---------------------------------------|
+| Output Limit            | You can raise `max_results` in `'inbox_cleaner.py'` (1-500) per API call. |
+| No Automatic Looping    | Script runs once and exits. You can add a cron job if you want repeat. |
+| API quotas apply        | Gemini free tier is limited; watch your Google Cloud console for usage. |
 
 
 ---
@@ -97,5 +97,3 @@ by QAMBAR ABBAS
 - **Project concept & design:** SHOZAB ABBAS (https://github.com/shozab-ctl)
 - **Core implementation:** QAMBAR ABBAS
 - **Inspired by:** Big MNCs need for lightweight, actionable inbox email management tools
-
-Thank you to all who contribute and experiment—happy coding! 
